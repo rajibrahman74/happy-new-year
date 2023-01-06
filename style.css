@@ -16,4 +16,51 @@ That styles will be used multiple times. And Universal Selectors
 
 .container {
   max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*
+Header and navigations styles 
+ */
+
+header {
+  background-color: white;
+  box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.06);
+  /* margin-bottom: 32px; */
+  padding: 5px 0;
+  /* position: sticky;
+  top: 0;
+  z-index: 1; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > a {
+  text-decoration: none;
+  padding: 3px;
+  /* background: rgba(79, 157, 166, 0.1); */
+  border-radius: 5px;
+}
+nav a img {
+  height: 70px;
+  width: 60px;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+nav ul li {
+  list-style-type: none;
+  font-size: 16.5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
 }
