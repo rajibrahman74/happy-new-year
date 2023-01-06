@@ -176,8 +176,7 @@ My skills seciton styles
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 130px;
-  margin-bottom: 130px;
+  margin-top: 40px;
 }
 
 .my-skills h2 {
@@ -185,7 +184,8 @@ My skills seciton styles
   font-size: 40px;
   line-height: 47px;
   color: #151414;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
+  margin-top: 95px;
 }
 
 .my-skills .card-container {
@@ -203,7 +203,6 @@ My skills seciton styles
   padding: 30px;
 }
 
-
 .my-skills .card-container .card .skills-title {
   font-weight: 600;
   font-size: 20px;
@@ -217,5 +216,56 @@ My skills seciton styles
   font-size: 15px;
   text-align: justify;
   line-height: 18px;
+  color: #737272;
+}
+
+/*
+My plans section styles
+*/
+
+.my-plans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 130px;
+  margin-bottom: 130px;
+}
+
+.my-plans h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
+
+.my-plans .plans-container {
+  margin-top: 50px;
+  display: flex;
+  gap: 150px;
+}
+.my-plans .plans-container .plans-item {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: center;
+}
+.my-plans .plans-container .plans-item img {
+  width: 92.96px;
+  height: 92.96px;
+}
+
+.my-plans .plans-container .plans-item .plans-title {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 30px;
+  text-align: center;
+  color: #151414;
+}
+
+.my-plans .plans-container .plans-item .plans-description {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
   color: #737272;
 }
