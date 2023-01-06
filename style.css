@@ -1,0 +1,19 @@
+/*
+Work sans font 
+ */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&family=Dancing+Script:wght@500&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@700&family=Inter&family=Lobster&family=Merriweather&family=Noto+Sans&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Splash&family=Titillium+Web&family=Work+Sans&display=swap");
+
+/*
+That styles will be used multiple times. And Universal Selectors
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+}
