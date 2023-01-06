@@ -12,6 +12,7 @@ That styles will be used multiple times. And Universal Selectors
   padding: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -28,9 +29,9 @@ header {
   box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.06);
   /* margin-bottom: 32px; */
   padding: 5px 0;
-  /* position: sticky;
+  position: sticky;
   top: 0;
-  z-index: 1; */
+  z-index: 1;
 }
 
 nav {
@@ -56,11 +57,114 @@ nav ul {
 }
 nav ul li {
   list-style-type: none;
-  font-size: 16.5px;
+  font-size: 16px;
   font-weight: bold;
   cursor: pointer;
 }
 nav ul li a {
   text-decoration: none;
   color: black;
+}
+
+/*
+Hero Section styles 
+ */
+
+.hero-section {
+  min-height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("assets/banner/banner1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-section .hero-content .hero-heading {
+  text-align: right;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 76px;
+  text-align: right;
+  color: #151414;
+  margin: 0 0 24px 552px;
+}
+
+.hero-section .hero-content .hero-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  color: #444343;
+  margin: 0 0 32px 694px;
+}
+.hero-content span {
+  display: flex;
+  justify-content: end;
+}
+
+.hero-content .hero-btn {
+  width: 137px;
+  height: 52px;
+  background: #f15b22;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+/*
+My failures section styles 
+ */
+.my-failures {
+  display: flex;
+  align-items: center;
+  gap: 87px;
+  margin-top: 130px;
+}
+.my-failures img {
+  width: 569px;
+  height: 723.3px;
+}
+
+.my-failures .my-failures-content .my-failures-headding {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin: 0 104px 24px 0;
+}
+.my-failures .my-failures-content .my-failures-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin: 0 125px 16px 0;
+}
+
+.my-failures ul {
+  list-style-position: inside;
+}
+.my-failures ul li {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+
+.my-failures .my-failures-content ul > span {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.my-failures ul span img {
+  width: 18px;
+  height: 20px;
 }
