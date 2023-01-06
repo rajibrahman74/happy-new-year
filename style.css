@@ -189,9 +189,9 @@ My skills seciton styles
 }
 
 .my-skills .card-container {
-    display: flex;
-    gap: 27px;
-    align-items: center;
+  display: flex;
+  gap: 27px;
+  align-items: center;
 }
 
 .my-skills .card-container .card {
@@ -200,5 +200,22 @@ My skills seciton styles
   border-radius: 10px;
   box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
   transition: 0.2s ease-in-out;
-  padding: 15px;
+  padding: 30px;
+}
+
+
+.my-skills .card-container .card .skills-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 35px;
+  color: #151414;
+  margin: 10px 0;
+}
+
+.my-skills .card-container .card .skills-description {
+  font-weight: 500;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 18px;
+  color: #737272;
 }
