@@ -228,7 +228,6 @@ My plans section styles
   flex-direction: column;
   /* align-items: center; */
   margin-top: 130px;
-  margin-bottom: 130px;
 }
 
 .my-plans h2 {
@@ -312,4 +311,79 @@ Gradietn styles
   text-align: center;
   color: #f15b22;
   cursor: pointer;
+}
+
+/* 
+Footer section and contact section sytyles
+*/
+footer {
+  width: 1600px;
+  height: 577px;
+  background: #151414;
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .footer-content {
+  display: flex;
+  gap: 331px;
+}
+
+footer .footer-content .futures-content {
+  width: 485px;
+  height: 317px;
+}
+
+footer .footer-content .futures-content-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
+}
+
+footer .footer-content .futures-content-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+footer .footer-content .futures-email {
+  font-weight: 400;
+  font-size: 15.5px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-top: 24px;
+}
+
+footer .footer-content .futures-phone {
+  font-weight: 400;
+  font-size: 15.5px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+footer .footer-content .futures-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 32px;
+}
+
+footer .footer-content .futures-icons a {
+  text-decoration: none;
+}
+
+footer .footer-content .futures-icons a img {
+  width: 35px;
+  height: 35px;
+}
+
+footer .footer-content .subscribe-content {
+  width: 325px;
+  height: 204px;
 }
