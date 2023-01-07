@@ -3,6 +3,8 @@ Work sans font
  */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&family=Dancing+Script:wght@500&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@700&family=Inter&family=Lobster&family=Merriweather&family=Noto+Sans&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Splash&family=Titillium+Web&family=Work+Sans&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter&family=Dancing+Script:wght@500&family=Edu+NSW+ACT+Foundation&family=Edu+SA+Beginner:wght@700&family=Inter&family=Lobster&family=Merriweather&family=Noto+Sans&family=Open+Sans&family=Poppins:wght@400;500&family=Roboto:wght@500&family=Splash&family=Titillium+Web&family=Work+Sans&display=swap");
+
 /*
 That styles will be used multiple times. And Universal Selectors
  */
@@ -227,7 +229,7 @@ My plans section styles
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  margin-top: 130px;
+  margin-top: 30px;
 }
 
 .my-plans h2 {
@@ -236,6 +238,7 @@ My plans section styles
   line-height: 47px;
   color: #151414;
   text-align: center;
+  margin-top: 100px;
 }
 
 .my-plans .plans-container {
@@ -311,6 +314,7 @@ Gradietn styles
   text-align: center;
   color: #f15b22;
   cursor: pointer;
+  border-radius: 8px;
 }
 
 /* 
@@ -329,11 +333,12 @@ footer {
 footer .footer-content {
   display: flex;
   gap: 331px;
+  margin: 0 auto;
 }
 
 footer .footer-content .futures-content {
-  width: 485px;
-  height: 317px;
+  width: 50%;
+  height: 50%;
 }
 
 footer .footer-content .futures-content-title {
@@ -380,10 +385,52 @@ footer .footer-content .futures-icons a {
 
 footer .footer-content .futures-icons a img {
   width: 35px;
-  height: 35px;
+  height: 35.5px;
 }
 
 footer .footer-content .subscribe-content {
-  width: 325px;
-  height: 204px;
+  width: 50%;
+  height: 50%;
+}
+
+footer .footer-content .subscribe-content .subscribe-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 31px;
+}
+footer .footer-content .subscribe-content form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+footer .footer-content .subscribe-content form input[type="email"] {
+  width: 310px;
+  height: 60px;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16.5px;
+  line-height: 21px;
+  color: #f3f3f3;
+  background: #151414;
+  border: 0.5px solid white;
+  padding: 21px 0 22px 21px;
+}
+
+footer .footer-content .subscribe-content form input[type="submit"] {
+  width: 145px;
+  height: 53px;
+  font-family: "Inter";
+  background: #ffffff;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #f15b22;
+  border: none;
+  cursor: pointer;
 }
