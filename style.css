@@ -110,7 +110,7 @@ Hero Section styles
   background: #f15b22;
   border-radius: 5px;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 23px;
   color: #ffffff;
   border: none;
@@ -226,7 +226,7 @@ My plans section styles
 .my-plans {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   margin-top: 130px;
   margin-bottom: 130px;
 }
@@ -236,11 +236,14 @@ My plans section styles
   font-size: 40px;
   line-height: 47px;
   color: #151414;
+  text-align: center;
 }
 
 .my-plans .plans-container {
   margin-top: 50px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 150px;
 }
 .my-plans .plans-container .plans-item {
@@ -268,4 +271,45 @@ My plans section styles
   line-height: 24px;
   text-align: center;
   color: #737272;
+}
+
+/*
+Gradietn styles 
+ */
+.my-plans .gradient {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 24px;
+  margin: 0 auto;
+  margin-top: 130px;
+  padding: 59px 64px 59px 64px;
+  width: 1140px;
+  height: 300px;
+  background: linear-gradient(360deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url("assets/watch.png"), url("assets/gradient3.png");
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.my-plans .gradient .gradient-inner-content {
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 47px;
+  color: #ffffff;
+  margin-right: 475px;
+}
+
+.my-plans .gradient .gradient-inner-btn {
+  border: none;
+  width: 137px;
+  height: 52px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  color: #f15b22;
+  cursor: pointer;
 }
