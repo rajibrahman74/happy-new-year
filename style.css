@@ -57,24 +57,22 @@ nav ul {
   display: flex;
   gap: 40px;
 }
-nav ul li {
-  list-style-type: none;
+nav ul a {
+  text-decoration: none;
   font-size: 16.5px;
   font-weight: bold;
-  cursor: pointer;
   padding: 10px 15px;
-  /* background: #F15B22; */
   border-radius: 5px;
   border: 1.5px solid transparent;
   background: rgb(252, 247, 248);
 }
 
-nav ul li:hover {
+nav ul a:hover {
   border: 1.5px solid #f15b22;
 }
 
-nav ul li a {
-  text-decoration: none;
+nav ul a li {
+  list-style-type: none;
   color: black;
 }
 
